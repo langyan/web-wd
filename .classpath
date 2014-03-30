@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.3.RELEASE/b71c2baa9bdf23951bb730f42cf27259317d83c4/spring-context-4.0.3.RELEASE-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.3.RELEASE/782a71a312dc307fa531023aa66247b9b4a109d/spring-context-4.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.0.3.RELEASE/99a774311815b9b34da8314cc85e9a3ee1e7614e/spring-webmvc-4.0.3.RELEASE-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.0.3.RELEASE/d6fd9778619ab87a41ae3aa879a53ee60f160c08/spring-webmvc-4.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="E:/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar" kind="lib" path="E:/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/654135274d4c27132ea208a4ec07f344bdb83bcb/slf4j-api-1.7.5-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.5/92082dc61252ea28d770c32c969ce809949526fc/jcl-over-slf4j-1.7.5-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.5/cd5970bd13fa85f7bed41ca606d6daf7cbf1365/jcl-over-slf4j-1.7.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.5/65ffa6d644792e8b09cf6479d5c01ed95bb153a0/slf4j-log4j12-1.7.5-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.5/6edffc576ce104ec769d954618764f39f0f0f10d/slf4j-log4j12-1.7.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/repository/opensymphony/sitemesh/2.4.2/sitemesh-2.4.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="E:/repository/javax/servlet/jstl/1.1.2/jstl-1.1.2-sources.jar" kind="lib" path="E:/repository/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="E:/repository/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar" kind="lib" path="E:/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.3.RELEASE/ddd76a3c9e1e1957d81b5294859f67d7fd0c104b/spring-core-4.0.3.RELEASE-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.3.RELEASE/138d28200d97f4affe9ccaa47fab54718b438319/spring-core-4.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.3.RELEASE/c0324f7c7a33ce6fb2d3543ba811828a8f68350e/spring-beans-4.0.3.RELEASE-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.3.RELEASE/41eabd53fd4ba5ba2b2d8af6c256a3741f65c2f3/spring-beans-4.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="E:/repository/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar" kind="lib" path="E:/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.3.RELEASE/78f4f26931a651f8236758b449355fe9204d96c1/spring-aop-4.0.3.RELEASE-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.3.RELEASE/dcedf5329d7092d66cc9d2496687a5f29d883eb6/spring-aop-4.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.3.RELEASE/dac3409a856fadefc7ad36cdc78d2b13af398ef2/spring-expression-4.0.3.RELEASE-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.3.RELEASE/40b25b3a693cb4cc382ddf2e69ff1b29c75a2e7d/spring-expression-4.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.3.RELEASE/35ff7e39f712a7fba8e1cde344f8f9e2ca3a439c/spring-web-4.0.3.RELEASE-sources.jar" kind="lib" path="C:/Documents and Settings/User/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.3.RELEASE/4d5066f31ea4b9c58957bf8c0c213b13ed44c1c5/spring-web-4.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+</classpath>

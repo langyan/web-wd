@@ -1,0 +1,73 @@
+
+version = [
+    spring: '4.0.3.RELEASE',
+    hibernate: '4.2.4.Final',
+    junit: '4.11',
+    slf4j: '1.7.5',
+    logback: '1.0.13',
+    log4j:'1.2.14',
+    sitemesh:'2.4.2'
+]
+
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+//apply plugin: 'maven'
+apply plugin: 'war'
+
+// tag::repositories[]
+repositories {
+    maven {url "file:///E:/repository" } 
+    mavenCentral()
+    maven { url "http://repo.spring.io/libs-milestone" }
+    maven { url "https://repository.jboss.org/nexus/content/repositories/releases" }
+}
+// end::repositories[]
+
+// tag::jar[]
+jar {
+    baseName = 'web-wd'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+// tag::dependencies[]
+dependencies {
+    compile ("org.springframework:spring-context:$version.spring",
+    "org.springframework:spring-webmvc:$version.spring"
+    )
+		
+    runtime (
+        "org.slf4j:slf4j-api:$version.slf4j",
+        "org.slf4j:jcl-over-slf4j:$version.slf4j",
+         "org.slf4j:slf4j-log4j12:$version.slf4j",
+        "log4j:log4j:$version.log4j"
+    )
+    
+     runtime (
+        "opensymphony:sitemesh:$version.sitemesh"
+     )
+    
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    runtime 'javax.servlet:jstl:1.1.2'
+}
+    
+// end::dependencies[]
+
+
+
+// tag::wrapper[]
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.11'
+}
+// end::wrapper[]
+
+task createJavaProject << {
+  sourceSets*.java.srcDirs*.each { it.mkdirs() }
+  sourceSets*.resources.srcDirs*.each { it.mkdirs()}
+}
+
+task createWebProject(dependsOn: 'createJavaProject') << {
+  def webAppDir = file("$webAppDirName")
+  webAppDir.mkdirs()
+}
+
